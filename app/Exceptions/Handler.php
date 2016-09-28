@@ -1,7 +1,5 @@
 <?php
-
 namespace App\Exceptions;
-
 use Exception;
 use Illuminate\Session\TokenMismatchException;
 use Illuminate\Validation\ValidationException;
@@ -9,7 +7,6 @@ use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Symfony\Component\HttpKernel\Exception\HttpException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
-
 class Handler extends ExceptionHandler
 {
     /**
@@ -24,7 +21,6 @@ class Handler extends ExceptionHandler
         TokenMismatchException::class,
         ValidationException::class,
     ];
-
     /**
      * Report or log an exception.
      *
@@ -37,7 +33,6 @@ class Handler extends ExceptionHandler
     {
         parent::report($e);
     }
-
     /**
      * Render an exception into an HTTP response.
      *
