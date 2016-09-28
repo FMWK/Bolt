@@ -1,0 +1,291 @@
+html {
+  position: relative;
+  min-height: 100%;
+  height: 100%;
+  font-family: Dosis, sans-serif;
+}
+
+body{
+    margin-bottom: 60px;
+    height: 100%;
+    color:#b5bed9;
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+
+}
+
+.mdl-grid{
+    z-index: 3;
+    position: relative;
+    font-family: Biryani;
+    font-weight: 800;
+}
+
+#bg {
+  z-index: 1;
+}
+
+#bg img {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: #fff;
+}
+
+.topnav{
+  z-index: 200;
+}
+
+.navlogo{
+  width: 45px;
+  height: 45px;
+}
+
+.sitename{
+  font-family: Dosis, sans-serif;
+  font-size: 29px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  padding-left: 10px;
+  color:#f5f5f5;
+}
+
+#endsitename{
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.mdl-layout__header-row{
+  overflow: hidden;
+}
+
+#main{
+  display: block;
+}
+
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -40px;
+  background-color:#f5f5f5;
+}
+
+#push,
+#footer {
+  height: 60px;
+  z-index: 200;
+}
+
+/*GLOBAL FOOTER*/
+footer {
+  background-color: rgb(29, 29, 29);
+}
+
+@media (max-width: 767px) {
+  #footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.container {
+  width: auto;
+  max-width: 680px;
+}
+
+.container .credit {
+  margin: 20px 0;
+}
+
+.text-muted{
+  color: #f5f5f5 !important;
+  font-family: Dosis,sans-serif;
+  padding-top: 6px;
+}
+/*GLOBAL FOOTER END*/
+/*ABOUT PAGE*/
+#aboutcol6{
+  font-family: Dosis,sans-serif;
+  margin-top: 20px;
+  border-radius: 3px;
+  background-color:rgb(29, 29, 29);
+}
+
+#aboutcol6 h4 {
+  color: #23CE6B;
+  font-weight: 600;
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+#aboutcol6 p {
+  color: #dedede;
+  font-weight: 600 !important;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 30px;
+  font-size: 16px;
+}
+
+#aboutcol6 hr{
+  background-color:#23CE6B;
+  border: 0;
+  height: 1px;
+  margin-bottom: 30px;
+}
+
+.devs{
+  color: #A846A0;
+}
+
+#leaderboardlink{
+  color: #dedede;
+  font-weight: 600;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+#leaderboardlink:link,
+#leaderboardlink:hover,
+#leaderboardlink:active,
+#leaderboardlink:visited{
+  text-decoration: none;
+  color: #dedede;
+}
+/*ABOUT PAGE END*/
+
+#homecol6{
+  font-family: Dosis,sans-serif;
+  margin-top: 20px;
+  border-radius: 3px;
+  background-color:rgb(29, 29, 29);
+}
+
+#homecol6 h4 {
+  color: #23CE6B;
+  font-weight: 600;
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+#homecol6 p {
+  color: #dedede;
+  font-weight: 600 !important;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 30px;
+  font-size: 16px;
+}
+
+#homecol6 hr{
+  background-color:#23CE6B;
+  border: 0;
+  height: 1px;
+  margin-bottom: 30px;
+}
+
+#searchcol6{
+  font-family: Dosis,sans-serif;
+  margin-top: 20px;
+  border-radius: 3px;
+  background-color:rgb(29, 29, 29);
+}
+
+#searchcol6 h4 {
+  color: #23CE6B;
+  font-weight: 600;
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+#searchcol6 p {
+  font-weight: 600 !important;
+}
+
+#searchcol6 hr{
+  background-color:#23CE6B;
+  border: 0;
+  height: 1px;
+  margin-bottom: 30px;
+}
+
+#nestedrow{
+  padding-top: 25px;
+  background-color:#f5f5f5;
+  margin-top: 30px;
+}
+
+hr.divider{
+  background-color: #828282 !important;
+}
+.col-sm-5.col-sm-offset-1{
+  background:#f5f5f5;
+}
+
+.search{
+  background-color: #fff;
+  outline: 0;
+  border: 1px solid #23CE6B;
+  border-radius: 4px;
+  width: 70%;
+  padding: 10px 20px 10px 20px;
+  margin-top: 30px;
+}
+
+input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 8px rgb(35,206,107);
+}
+
+.statheader{
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(29, 29, 29);
+  padding-bottom: 30px;
+}
+.playername{
+  font-size: 25px;
+  font-weight: 600;
+  color: #23CE6B;
+  margin-bottom: 30px;
+}
+a.playername:link,
+a.playername:active,
+a.playername:visited,
+a.playername:hover{
+  text-decoration: none;
+  color: #23CE6B;
+}
+
+.leftstatname{
+  color: rgb(29, 29, 29);
+  float: left;
+  font-size: 18px;
+}
+.leftresult{
+  float:right;
+  padding-right: 20px;
+  color: rgb(29, 29, 29);
+  font-size: 16px;
+}
+
+.rightstatname{
+  color: rgb(29, 29, 29);
+  float: right;
+  font-size: 18px;
+}
+.rightresult{
+  float:left;
+  padding-left: 20px;
+  color: rgb(29, 29, 29);
+  font-size: 16px;
+}
